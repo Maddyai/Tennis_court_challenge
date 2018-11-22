@@ -14,11 +14,11 @@ OUTPUT:
 * Green — single side line 
 
 <p align="right">
-  <img src="https://raw.githubusercontent.com/Maddyai/tennis_court/master/output/test.jpg "/output test.jpg" 
+  <img src="https://raw.githubusercontent.com/Maddyai/Tennis_court_challenge/master/output/test.jpg "
   width="600">
 </p>
 
 <p align="right">
-<img src="https://raw.githubusercontent.com/Maddyai/tennis_court/master/output/tennis_court.jpg" 
+<img src="https://raw.githubusercontent.com/Maddyai/Tennis_court_challenge/master/output/tennis_court.jpg" 
 width=600 
 </p>
