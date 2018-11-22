@@ -1,0 +1,25 @@
+*preprocess
+ -image resize by half (to improve performance)
+ -converted image to HSV 
+ -filtered out based on white color with sensitivity variable (that can be changed if required)
+
+*skeletonize
+ -skeletonize the preprocessed image to improve the accuracy of line detection
+
+*line detection
+ -Used HoughLines for detecting line
+ -At least 6 lines is required
+ -Helper Class Line is used for storing the x,y coordinate 
+  of the line as well as mid pt of the line 
+ -All the objects are stored in an array
+  
+*Classification
+ -The array  is sorted according to the required classification
+ - Base line (sorted based on y coordinate of the mid point)
+  the value in the first and last index(top and bottom line) are poped
+  (As it reduces the values to be sorted next and the same line is not choosen again) 
+  like wise for single and double sideline (based on x coordinate)
+    
+  *Note
+  -Classification based on horizontal and vertical lines didn't always work out.  
+ 
