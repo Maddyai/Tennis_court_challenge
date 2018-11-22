@@ -1,3 +1,9 @@
+Execute it using python
+
+```
+python main.py
+```
+
 ```shell
 Libraries Required:
   — OpenCV
